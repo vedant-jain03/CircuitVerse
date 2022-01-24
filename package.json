@@ -19,7 +19,7 @@
   "devDependencies": {
     "@commitlint/cli": "^16.0.0",
     "@commitlint/config-conventional": "^16.0.0",
-    "@webpack-cli/serve": "^1.6.0",
+    "@webpack-cli/serve": "^1.6.1",
     "esbuild-loader": "^2.18.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.0",
