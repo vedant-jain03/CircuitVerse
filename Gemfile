@@ -59,7 +59,7 @@ gem "sunspot_rails"
 gem "will_paginate", "~> 3.3.1"
 gem "will_paginate-bootstrap"
 
-gem "country_select", "~> 6.0"
+gem "country_select", "~> 6.1"
 gem "geocoder"
 
 # for authorization layer
