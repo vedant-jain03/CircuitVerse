@@ -54,6 +54,7 @@
               <% end %>
               <%= f.submit t("sign_up"), class:"btn primary-button users-login-primary-button" %>
               <div class="users-text-container">
+                <%= link_to 'Confirm my account', confirmation_url(resource, confirmation_token: @token),class:"anchor-text" %>
                 <span class="users-text"><%= t("users.registrations.ask_already_registered") %></span>
                 <%= link_to t("login"), new_user_session_path ,class:"anchor-text" %>
               </div>
