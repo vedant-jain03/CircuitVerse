@@ -2993,10 +2993,10 @@ bluebird@^3.7.2:
   resolved "https://registry.npmjs.org/bluebird/-/bluebird-3.7.2.tgz"
   integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
 
-bootstrap-input-spinner@^3.3.3:
-  version "3.3.3"
-  resolved "https://registry.npmjs.org/bootstrap-input-spinner/-/bootstrap-input-spinner-3.3.3.tgz"
-  integrity sha512-hHkus8v7BzIveFA6sV2NphGvIx82lRa3mAD12LKAm1atmwNRamXqEOkbCG1KDXz8FDV1GW9AiZSVOzth5duQgg==
+bootstrap-input-spinner@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/bootstrap-input-spinner/-/bootstrap-input-spinner-4.0.4.tgz#c25b561f4cc6532e0c00f89e9a7b2e337a5b2918"
+  integrity sha512-6rIEXvALNC7/Oa/CXNfYfeaXlzJ9cnnmEd3FgvrpO8dEcM6tP3GDJ1vOeeggMOtvPj7Z4Fuau22EdGWkYo2XSA==
 
 bootstrap@^5.3.3:
   version "5.3.3"
