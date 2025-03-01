@@ -1,5 +1,5 @@
 # Use a multi stage build for the builder
-FROM --platform=$BUILDPLATFORM ruby:3.2.1 as builder
+FROM --platform=$BUILDPLATFORM ruby:3.4.2 as builder
 
 # Set production environment
 ARG BUILDPLATFORM
@@ -55,7 +55,7 @@ COPY cv-frontend-vue/ ./
 # Build Vue simualtor
 RUN npm run build
 
-FROM --platform=$BUILDPLATFORM ruby:3.2.1-slim as app
+FROM --platform=$BUILDPLATFORM ruby:3.4.2-slim as app
 
 # Copy compiled assets and application from builder and Vue simulator build stages
 COPY --from=builder /usr/src/app /usr/src/app
